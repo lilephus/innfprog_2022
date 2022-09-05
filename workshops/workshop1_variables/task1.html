@@ -40,5 +40,28 @@
             </table>
         </aside>
     </div>
+    <script>
+//oppgave 1:skrivenavn
+const playername ="Epha"
+document.getElementById("playername").innerHTML = playername
+//oppgave 2: penger
+document.getElementById("coins-count").innerHTML = coins
+let coins = 15
+//opgave 3. liv
+let lives= 5
+document.getElementById("lives-count").innerHTML = lives
+//oppgave 4: våpen-nivåer
+let longsword = 1
+let warhammer = 4
+let battleaxe = 2
+let armour = 3
+document.getElementById("weapon-longsword").innerHTML = longsword
+document.getElementById("weapon-warhammer").innerHTML = warhammer
+document.getElementById("weapon-battleaxe").innerHTML = battleaxe
+document.getElementById("weapon-armour").innerHTML = armour
+//oppgave 5:
+let points = (coins * 5) + (longsword * 5) + (warhammer * 15) + (battleaxe * 20) + (armour * 25)
+document.getElementById("points-count").innerHTML = points
+    </script>
 </body>
 </html>
